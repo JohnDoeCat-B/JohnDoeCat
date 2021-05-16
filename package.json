@@ -1,6 +1,7 @@
 {
   "name": "johndoecat",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,6 +13,7 @@
     "prepare": "husky install",
     "test": "jest"
   },
+  "homepage": "https://johndoecat.github.io/johndoecat/",
   "lint-staged": {
     "*.{vue,js,ts}": "eslint --fix"
   },
