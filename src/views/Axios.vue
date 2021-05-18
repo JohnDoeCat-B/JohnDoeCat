@@ -34,7 +34,7 @@ export default defineComponent({
     const getUserInfo = () => {
       loading.value = true
       axios
-        .get('/users/XPoet')
+        .get('/users/JohnDoeCat')
         .then((response) => {
           console.log('response: ', response.data)
           userInfo.value = response.data

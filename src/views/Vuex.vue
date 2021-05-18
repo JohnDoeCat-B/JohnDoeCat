@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, computed, toRefs } from 'vue'
-import { useStore } from '../store'
+import { useStore } from '@/store'
 
 export default defineComponent({
   name: 'Vuex',
