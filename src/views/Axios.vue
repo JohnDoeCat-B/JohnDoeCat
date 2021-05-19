@@ -6,13 +6,13 @@
         <template #header>
           <div class="card-header">
             <span>XPoet</span>
-            <el-button class="button" type="text" @click="getUserInfo"
-              >点击获取XPoet信息
+            <el-button class="button" type="text" @click="getUserInfo">
+              点击获取XPoet信息
             </el-button>
           </div>
         </template>
         <div class="info-list-box" v-loading="loading">
-          <div class="text item" v-if="userInfo?.name">name: {{ userInfo?.name }}</div>
+          <div class="text item" v-if="userInfo?.login">name: {{ userInfo?.login }}</div>
           <div class="text item" v-if="userInfo?.bio">bio: {{ userInfo?.bio }}</div>
           <div class="text item" v-if="userInfo?.blog">blog: {{ userInfo?.blog }}</div>
         </div>

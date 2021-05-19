@@ -9,4 +9,11 @@ import App from './App.vue'
 import 'element-plus/lib/theme-chalk/index.css'
 import '@/style/basic.styl'
 
-createApp(App).use(router).use(store, key).use(ElIcon, ElLoading, ElCard, ElButton).mount('#app')
+createApp(App)
+  .use(router)
+  .use(store, key)
+  .use(ElButton)
+  .use(ElCard)
+  .use(ElLoading)
+  .use(ElIcon)
+  .mount('#app')
