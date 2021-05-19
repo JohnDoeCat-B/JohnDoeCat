@@ -7,6 +7,7 @@
     <div class="bottom">
       <div class="left">
         <Nav />
+        <bar-component></bar-component>
       </div>
 
       <div class="right">
